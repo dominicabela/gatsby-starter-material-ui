@@ -15,6 +15,7 @@ This starter includes [Material UI](https://material-ui.com/) boilerplate and co
 - Roboto Typeface (self hosted)
 - SEO
 - Offline Support
+- Based on Gatsby Default Starter
 
 ## Quick start
 
