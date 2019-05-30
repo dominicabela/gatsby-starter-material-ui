@@ -1,13 +1,16 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-material-ui",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dominic Abela <djmabela@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "@material-ui/styles": "^4.0.1",
     "gatsby": "^2.7.5",
     "gatsby-image": "^2.1.2",
     "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-material-ui": "^2.0.1",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.1.2",
@@ -16,7 +19,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
