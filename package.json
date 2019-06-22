@@ -6,6 +6,7 @@
   "author": "Dominic Abela <djmabela@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
+    "@material-ui/icons": "^4.2.0",
     "@material-ui/styles": "^4.0.1",
     "gatsby": "^2.7.5",
     "gatsby-image": "^2.1.2",
