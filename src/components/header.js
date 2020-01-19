@@ -140,22 +140,22 @@ const Header = ({ siteTitle }) => {
         </div>
         <Divider />
         <List>
-          <ListItem button>
-            <ListItemIcon>
-              <HomeIcon />
-            </ListItemIcon>
-            <ListItemText>
-              <Link to="/">Home</Link>
-            </ListItemText>
-          </ListItem>
-          <ListItem button>
-            <ListItemIcon>
-              <ListIcon />
-            </ListItemIcon>
-            <ListItemText>
-              <Link to="/components">Components</Link>
-            </ListItemText>
-          </ListItem>
+          <Link to="/">
+            <ListItem button>
+              <ListItemIcon>
+                <HomeIcon />
+              </ListItemIcon>
+              <ListItemText>Home</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/components">
+            <ListItem button>
+              <ListItemIcon>
+                <ListIcon />
+              </ListItemIcon>
+              <ListItemText>Components</ListItemText>
+            </ListItem>
+          </Link>
         </List>
       </Drawer>
     </div>
